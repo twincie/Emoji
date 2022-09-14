@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Megrim|Nunito+Sans:400,900"
+      rel="stylesheet"
+    />
+    <title>{%EMOJINAME%} {%IMAGE%} /// EMOJI</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: linear-gradient(to bottom right, #c6c7c5, #000000);
+      }
+
+      h1 {
+        font-family: 'Megrim', sans-serif;
+        font-size: 6rem;
+        color: white;
+        transform: skewY(-5deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+      }
+
+      h1::before {
+        content: '';
+        display: block;
+        height: 65%;
+        width: 49%;
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        background: linear-gradient(to bottom, #b7b8b6, #000000);
+        opacity: 0.8;
+        z-index: -1;
+        transform: skewY(370deg) translate(-50%, -50%);
+      }
+
+      .container {
+        width: 95rem;
+        margin: 0 auto;
+      }
+
+      .emoji {
+        width: 60rem;
+        margin: 0 auto;
+        margin-top: 9rem;
+        background: white;
+        box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.2);
+        position: relative;
+      }
+
+      .emojis__temp {
+        position: relative;
+        height: 22rem;
+        overflow: hidden;
+      }
+
+      .emojis__temp::before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to left bottom, #d6d6d6, #000000);
+        opacity: 0.5;
+        z-index: 100;
+      }
+
+      .emojis_emoji {
+        font-size: 15rem;
+        position: absolute;
+      }
+
+      .emojis_emoji--1 {
+        top: -4rem;
+        left: -2rem;
+        z-index: 10;
+      }
+
+      .emojis_emoji--2 {
+        top: -6rem;
+        left: 9rem;
+      }
+
+      .emojis_emoji--3 {
+        top: -4rem;
+        right: 15rem;
+      }
+
+      .emojis_emoji--4 {
+        top: -5rem;
+        right: 2rem;
+        z-index: 10;
+      }
+
+      .emojis_emoji--5 {
+        bottom: -9rem;
+        left: 18rem;
+      }
+
+      .emojis_emoji--6 {
+        bottom: -8rem;
+        left: 5rem;
+      }
+
+      .emojis_emoji--7 {
+        bottom: -12rem;
+        right: 14rem;
+      }
+
+      .emojis_emoji--8 {
+        bottom: -8rem;
+        right: -2rem;
+      }
+
+      .emojis_emoji--9 {
+        top: -7rem;
+        left: 19rem;
+      }
+
+      .emojis_stamp {
+        position: absolute;
+        top: -4rem;
+        right: -4rem;
+        z-index: 1000;
+        height: 11rem;
+        width: 11rem;
+        background-image: linear-gradient(to bottom, #bdbdbd, #000000);
+        border-radius: 50%;
+        transform: rotate(15deg);
+        box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .emojis_stamp h5 {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: white;
+      }
+
+      .emojis_back:link,
+      .emojis_back:visited {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        z-index: 1000;
+        color: #555;
+        background-color: white;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+        border-radius: 100rem;
+        padding: 0 2rem;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+      }
+
+      .emojis_back:hover,
+      .emojis_back:active {
+        background-color: #888d88;
+      }
+
+      .emojis_name {
+        background: linear-gradient(to bottom, #7d7d7c, #000000);
+        padding: 1rem;
+        font-family: 'Megrim', sans-serif;
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+        word-spacing: 2px;
+      }
+
+      .emojis_description {
+        padding: 5rem 6rem;
+        font-size: 1.6rem;
+        line-height: 1.8;
+      }
+      
+      .emoji-left {
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
+
+      .emoji-right {
+        font-size: 2rem;
+        margin-left: 1rem;
+      }
+
+      .not-organic {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>EMOJI</h1>
+
+      <figure class="emoji">
+        <div class="emojis_stamp"><h5>Emoji</h5></div>
+        <a href="/overview" class="emojis_back">
+          <span class="emoji-left">👈</span>Back
+        </a>
+        <div class="emojis__temp">
+          <span class="emojis_emoji emojis_emoji--1">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--2">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--3">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--4">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--5">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--6">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--7">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--8">{%IMAGE%}</span>
+          <span class="emojis_emoji emojis_emoji--9">{%IMAGE%}</span>
+        </div>
+        <h2 class="emojis_name">{%EMOJINAME%}</h2>
+        <p class="emojis_description">
+          {%DESCRIPTION%}
+        </p >
+        <strong><hr><hr></strong>
+        <p class="emojis_description">
+          <strong>Also known as: </strong>{%AKA%} <br>
+          <strong>Code Point: </strong>{%CODEPOINT%}
+        </p>
+      </figure>
+      
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+[
+  {
+    "id": 0,
+    "emojiName": "Grinning Face",
+    "image": "😀",
+    "description": "A yellow face with simple, open eyes and a broad, open smile, showing upper teeth and tongue on some platforms. Often conveys general pleasure and good cheer or humor. Not to be confused with 😃 Grinning Face With Big Eyes or 😄 Grinning Face With Smiling Eyes, which have the same smiles but more expressive eye shapes. This emoji has a cat variant, 😺 Grinning Cat Face.",
+    "AlsoKnownAs": [
+      "😀 Happy Face",
+      "😀 Smiley Face"
+    ],
+    "codepoints": "😀 U+1F600"
+  },
+  {
+    "id": 1,
+    "emojiName": "Grinning Face with Big Eyes",
+    "image": "😃",
+    "description": "A yellow face with smiling eyes and a broad, open smile, showing upper teeth and tongue on some platforms. Often conveys general happiness and good-natured amusement. Similar to 😀 Grinning Face but with taller, more excited eyes.",
+    "AlsoKnownAs": [
+      "😃 Grinning Face",
+      "😃 Happy",
+      "😃 Happy Face",
+      "😃 Smiley Face"
+    ],
+    "codepoints": "😃 U+1F603"
+  },
+  {
+    "id": 2,
+    "emojiName": " Grinning Face with Smiling Eyes",
+    "image": "😄",
+    "description": "A yellow face with smiling eyes and a broad, open smile, showing upper teeth and tongue on some platforms. Often conveys general happiness and good-natured amusement. Similar to 😀 Grinning Face and 😃 Grinning Face With Big Eyes, but with warmer, less excited eyes.",
+    "AlsoKnownAs": [
+      "😄 Grinning Face",
+      "😄 Happy Face",
+      "😄 Smiley Face"
+    ],
+    "codepoints": "😄 U+1F604"
+  },
+  {
+    "id": 3,
+    "emojiName": "Beaming Face with Smiling Eyes",
+    "image": "😁",
+    "description": "A yellow face with smiling eyes and full-toothed grin, as if saying Cheese! for the camera. Teeth may be smoothed-over or crosshatched. Often expresses a radiant, gratified happiness. Tone varies, including warm, silly, amused, or proud. 🚩 Appearance historically differs greatly cross-platform. Use with caution. 🚨",
+    "AlsoKnownAs": [
+      ""
+    ],
+    "codepoints": "😁 U+1F601"
+  },
+  {
+    "id": 4,
+    "emojiName": "Grinning Squinting Face",
+    "image": "😆",
+    "description": "A yellow face with a broad, open smile and scrunched, X-shaped eyes. Often conveys excitement or hearty laughter. Similar to 😀 Grinning Face but with eyes that might say Squee! or Awesome! An emoji form of the >< or xD emoticons.",
+    "AlsoKnownAs": [
+      "😆 ><",
+      "😆 Big Grin",
+      "😆 Closed-Eyes Smile",
+      "😆 Laughing",
+      "😆 XD"
+    ],
+    "codepoints": "😆 U+1F606"
+  },
+  {
+    "id": 5,
+    "emojiName": "Grinning Face with Sweat",
+    "image": "😅",
+    "description": "Has the same grin and eyes as 😄 Grinning Face With Smiling Eyes but with a single, blue bead of sweat, usually over its left eye. Intended to depict nerves or discomfort but commonly used to express a close call, as if saying Whew! and wiping sweat from the forehead.",
+    "AlsoKnownAs": [
+      "😅 Exercise",
+      "😅 Happy Sweat"
+    ],
+    "codepoints": "😅 U+1F605"
+  },
+  {
+    "id": 6,
+    "emojiName": "Rolling on the Floor Laughing",
+    "image": "🤣",
+    "description": "A yellow face with a big grin and scrunched, X-shaped eyes, tilted on its side as if rolling on the floor laughing (the internet acronym ROFL). Sheds two tears and tilts right on most platforms. Often conveys hysterical laughter more intense than 😂 Face With Tears of Joy.",
+    "AlsoKnownAs": [
+      "🤣 ROFL"
+    ],
+    "codepoints": "🤣 U+1F923"
+  },
+  {
+    "id": 7,
+    "emojiName": "Face with Tears of Joy",
+    "image": "😂",
+    "description": "A yellow face with a big grin, uplifted eyebrows, and smiling eyes, each shedding a tear from laughing so hard. Widely used to show something is funny or pleasing. Named the Oxford Dictionaries 2015 Word of the Year, and the most used emoji on all platforms from 2011-2021. Briefly overtaken as the top emoji on Twitter in 2021 by 😭 Loudly Crying Face, though as of January 2022 it has reclaimed its top position on the platform.",
+    "AlsoKnownAs": [
+      "😂 Laughing",
+      "😂 Laughing Crying",
+      "😂 Laughing Tears",
+      "😂 LOL"
+    ],
+    "codepoints": "😂 U+1F602"
+  },
+  {
+    "id": 8,
+    "emojiName": "Slightly Smiling Face",
+    "image": "🙂",
+    "description": "A yellow face with simple, open eyes and a thin, closed smile. Conveys a wide range of positive, happy, and friendly sentiments. Its tone can also be patronizing, passive-aggressive, or ironic, as if saying This is fine when it’s really not.",
+    "AlsoKnownAs": [
+      "🙂 Slightly Happy",
+      "🙂 This Is Fine"
+    ],
+    "codepoints": "🙂 U+1F642"
+  },
+  {
+    "id": 9,
+    "emojiName": "Upside-Down Face",
+    "image": "🙃",
+    "description": "A classic smiley, turned upside down. Implemented as a flipped version of 🙂 Slightly Smiling Face on most platforms. Commonly used to convey irony, sarcasm, joking, or a sense of goofiness or silliness. Its intent can be similar to the bemused Oh well! of 🤷 Person Shrugging or the shruggie emoticon, ¯|_(ツ)_|¯.",
+    "AlsoKnownAs": [
+      "🙃 Sarcasm",
+      "🙃 Silly"
+    ],
+    "codepoints": "🙃 U+1F643"
+  }
+]
